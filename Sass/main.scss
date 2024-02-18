@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #444444;
+}
+
+.header{
+    
+    &-logoimg{
+        position: absolute;
+        z-index: 100;
+        width: 12%;
+        height: 22%;
+        padding-top: 3rem;
+        padding-left: 5rem;
+    }
+    &-mainimg{
+        position: absolute;
+        z-index: 1;
+        width: 75%;
+        height: 95%;
+        left: 12.5%;
+    }
+    &-menu{
+        position: absolute;
+        z-index: 15;
+        display: flex;
+        right: 0;
+        margin-right: 7%;
+        margin-top: 5%;
+        writing-mode: vertical-lr;
+        &-texts{
+            display: flex;
+            list-style: square;
+            &-text{
+                margin-top: 2.5rem;
+                color: inherit;
+                
+            }
+        }
+    }
+    &-concept{
+        position: absolute;
+        z-index: 30;
+        bottom: 0;
+        text-align: center;
+        background-color: #90DE52;
+        width: 10rem;
+        height: 10rem;
+        left: 17%;
+        bottom: 5%;
+        &-text{
+            padding-top: 3.3rem;
+            color: rgb(242, 248, 254);
+        }
+    }
+}
+
+.main{
+    text-align: center;
+    padding-top: 54rem;
+
+    &-news{
+        margin-left: 25%;
+        
+        &-text{
+            color: #444444;
+            line-height: 3.5rem;
+            text-align: left;
+        }
+        &-textlink{
+            margin-left: 20%;
+        }
+    }
+
+    &-element{
+        border-bottom: solid 1px #E8E8E8;
+        width: 70%;
+        margin-top: 3%;
+        margin-left: 15%;
+        margin-bottom: 3%;
+    }
+
+    &-vue01{
+        width: 90%;
+        #green-element{
+            width: 10rem;
+            height: 10rem;
+            background-color: #90DE52;
+        }
+        &-element{
+            position: absolute;
+            z-index: 90;
+            margin-top: 5%;
+            left: 19%;
+        }
+        &-maincontents{
+            position: absolute;
+            z-index: 100;
+           
+            &-flex{
+                 display: flex;
+                margin-top: 8%;
+                justify-content: center;
+
+                &-img{
+                    width: 45%;
+                    margin-left: 6%;
+                }
+                
+                &-text{
+                    writing-mode: vertical-lr;
+                    text-align: left;
+                    margin-left: 5%;
+                    line-height: 3.5rem;
+                    letter-spacing: 0.7rem;
+                }
+            }
+
+            
+        }
+        &-exp{
+            position: absolute;
+            width: 50%;
+            margin-top: 4%;
+            padding-bottom: 4%;
+            left: 21%;
+            line-height: 2rem;
+            justify-content: center;
+        }
+        
+    }
+    &-bottom{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        &-navi{
+            margin-left: 5%;
+            &-title{
+                margin-bottom: 8%;
+            }
+            &-texts{
+                list-style: none;
+                &-text{
+                    margin-top: 3.5%;
+                }
+            }
+        }
+        &-button{
+            margin-left: 5%;
+            margin-top: 1%;
+            &-mainbutton{
+                padding: 15%;
+                border-radius: 2rem;
+                background-color: #90DE52;
+                color: #fcfcfc;
+            }
+            &-maintext{
+                margin-top: 30%;
+            }
+        }
+    }
+}
+.footer{
+    background-color: #90DE52;
+    width: 70%;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 5%;
+    &-schoolname{
+        padding-top: 7%;
+        padding-bottom: 13%;
+        padding-left: 10%;
+        color: #fcfcfc;
+        line-height: 2.5rem;
+    }
+}
+
+// //////////////////////////////////////////
+// //////////////////////////////////////////
+// //////////////////////////////////////////
+// //////////////////////////////////////////
+// //////////////////////////////////////////
+// //////////////////////////////////////////
+// //////////////////////////////////////////
+// //////////////////////////////////////////
+// //////////////////////////////////////////
+// //////////////////////////////////////////
+// //////////////////////////////////////////
+
+@media screen and (max-width: 400px) {
+    html{
+        font-size: 40%;
+    }
+    .header{
+    
+        &-logoimg{
+            position: absolute;
+            z-index: 100;
+            width: 15%;
+            height: 10%;
+            padding-top: 3rem;
+            padding-left: 5rem;
+        }
+        &-mainimg{
+            position: absolute;
+            z-index: 1;
+            width: 75%;
+            height: 35%;
+            left: 12.5%;
+        }
+        &-menu{
+            position: absolute;
+            z-index: 15;
+            display: flex;
+            right: 0;
+            margin-right: 7%;
+            margin-top: 2%;
+            writing-mode: vertical-lr;
+            &-texts{
+                display: flex;
+                list-style: square;
+                &-text{
+                    margin-top: 2.5rem;
+                    color: inherit;
+                    
+                }
+            }
+        }
+        &-concept{
+            position: absolute;
+            z-index: 30;
+            bottom: 0;
+            text-align: center;
+            background-color: #90DE52;
+            width: 15rem;
+            height: 13rem;
+            left: 17%;
+            bottom: 65%;
+            &-text{
+                font-size: 30%;
+                padding-top: 3.3rem;
+                color: rgb(242, 248, 254);
+            }
+        }
+    }
+
+    #sold-mobile{
+        margin-top: -35%;
+    }
+    
+    .main{
+        text-align: center;
+        padding-top: 40rem;
+    
+        &-news{
+            margin-left: 20%;
+            
+            &-text{
+                color: #444444;
+                line-height: 3.5rem;
+                text-align: left;
+            }
+            &-textlink{
+                margin-left: 20%;
+            }
+        }
+    
+        &-element{
+            border-bottom: solid 1px #E8E8E8;
+            width: 70%;
+            margin-top: 3%;
+            margin-left: 15%;
+            margin-bottom: 3%;
+        }
+    
+        &-vue01{
+            width: 90%;
+            #green-element{
+                width: 6rem;
+                height: 6rem;
+                background-color: #90DE52;
+            }
+            #mobile{
+                display: none;
+            }
+            &-element{
+                position: absolute;
+                z-index: 90;
+                margin-top: 5%;
+                left: 23%;
+            }
+            &-maincontents{
+                position: absolute;
+                z-index: 100;
+                margin-bottom: 30rem;
+                &-flex{
+                    display: flex;
+                    margin-top: 8%;
+                    justify-content: center;
+    
+                    &-img{
+                        width: 35%;
+                        height: 20%;
+                        margin-left: 6%;
+                    }
+                    
+                    &-text{
+                        writing-mode: vertical-lr;
+                        text-align: left;
+                        font-size: 5%;
+                        margin-left: 5%;
+                        line-height: 1.5rem;
+                        letter-spacing: 0.7rem;
+                    }
+                }
+    
+                
+            }
+            &-exp{
+                position: absolute;
+                width: 50%;
+                margin-top: -20%;
+                padding-bottom: 4%;
+                left: 21%;
+                line-height: 2rem;
+                justify-content: center;
+            }
+            
+        }
+        &-bottom{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            &-navi{
+                margin-left: 5%;
+                &-title{
+                    margin-bottom: 8%;
+                }
+                &-texts{
+                    list-style: none;
+                    &-text{
+                        margin-top: 3.5%;
+                    }
+                }
+            }
+            &-button{
+                margin-left: 5%;
+                margin-top: 1%;
+                #mobile{
+                    display: none;
+                }
+                &-mainbutton{
+                    padding: 15%;
+                    border-radius: 2rem;
+                    background-color: #90DE52;
+                    color: #fcfcfc;
+                }
+                &-maintext{
+                    margin-top: 30%;
+                }
+            }
+        }
+    }
+    .footer{
+        background-color: #90DE52;
+        width: 70%;
+        justify-content: center;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 5%;
+        &-schoolname{
+            padding-top: 7%;
+            padding-bottom: 13%;
+            padding-left: 10%;
+            color: #fcfcfc;
+            line-height: 2.5rem;
+        }
+    }
+}
